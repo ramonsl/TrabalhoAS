@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TrabalhoAS</string>
+
+    <string-array name="coin">
+        <item>Bitcoin</item>
+        <item>Litecoin</item>
+        <item>BCash</item>
+        <item>XRP (Ripple)</item>
+        <item>Ethereum</item>
+        <item>USD Coin</item>
+    </string-array>
+</resources>
