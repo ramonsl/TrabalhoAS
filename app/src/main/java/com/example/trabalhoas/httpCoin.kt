@@ -31,7 +31,8 @@ object httpCoin {
         val response = client.newCall(request).execute()
         val jsonString = response.body?.string()
         val jsonO = JSONObject(jsonString)
-        return readJson(jsonO)
+        val jsonTicker = jsonO.getJSONObject("ticker")
+        return readJson(jsonTicker)
     }
 
     fun readJson(json: JSONObject): Coin?{
